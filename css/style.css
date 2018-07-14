@@ -310,6 +310,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
+dl {
+  margin: 0; }
+
+dd {
+  margin: 0; }
+
 img {
   display: block;
   width: 100%;
@@ -390,8 +396,6 @@ a {
     width: 20px;
     height: 20px;
     background: url(../../img/search.svg) no-repeat; }
-  .form__btn:hover {
-    background-color: #f86161; }
 
 .form__input::-webkit-input-placeholder {
   font-size: 14px;
@@ -416,6 +420,8 @@ a {
     width: 20px;
     height: 20px;
     background: url(../../img/scroll.svg) no-repeat; }
+  .scroll:hover {
+    color: #ff6363; }
 
 .flex-grid {
   display: -webkit-box;
@@ -453,12 +459,16 @@ a {
   text-align: left; }
   .categories-nav__item:last-child {
     padding-right: 0; }
+  .categories-nav__item:hover {
+    color: #ff6363; }
 
 .choose-us {
   padding-top: 120px;
   background-image: url(../../img/bg-choose-us.jpg); }
   .choose-us--tittle {
-    padding-bottom: 70px;
+    margin: 0;
+    padding-top: 82px;
+    padding-bottom: 54px;
     font-size: 36px;
     font-family: "Aleo";
     font-weight: 400;
@@ -491,7 +501,56 @@ a {
 .choose-us-categories {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 980px;
+  margin-top: 310px;
+  margin-bottom: 0;
+  padding-bottom: 120px;
+  color: #e8e8e8;
+  font-size: 36px;
+  font-family: "Aleo";
+  line-height: 0.722;
+  text-align: center; }
+  .choose-us-categories__item {
+    position: relative;
+    padding-right: 170px; }
+  .choose-us-categories__item:last-child {
+    padding-right: 0; }
+  .choose-us-categories__item--search:after {
+    content: '';
+    position: absolute;
+    left: 94px;
+    bottom: 114px;
+    width: 804px;
+    height: 80px;
+    background: url(../../img/arch.png) no-repeat; }
+  .choose-us-categories__item--search:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 57px;
+    height: 57px;
+    background: url(../../img/chous-us-searh.svg) no-repeat; }
+  .choose-us-categories__item--select:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 61px;
+    height: 61px;
+    background: url(../../img/select.svg) no-repeat; }
+  .choose-us-categories__item--enjoy:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 61px;
+    height: 61px;
+    background: url(../../img/enjoy.svg) no-repeat; }
 
 .btn {
   font-family: 'Aleo';
@@ -500,7 +559,15 @@ a {
   .btn--choose-us {
     width: 225px;
     height: 60px;
-    margin-top: 60px;
+    margin-top: 44px;
+    border: none;
+    text-transform: uppercase; }
+  .btn:hover {
+    color: #333333;
+    background-color: #f86161; }
+  .btn--travel {
+    width: 225px;
+    height: 60px;
     border: none;
     text-transform: uppercase; }
 
@@ -513,3 +580,158 @@ a {
   .img--second {
     -ms-flex-item-align: end;
     align-self: flex-end; }
+
+.travel-spain__first {
+  padding-top: 229px;
+  padding-bottom: 73px;
+  background-image: url(../../img/bg-spain-first.jpg); }
+
+.travel-spain__second {
+  padding-top: 229px;
+  padding-bottom: 73px;
+  background-image: url(../../img/bg-spain-second.jpg); }
+
+.travel-spain__description-list {
+  font-size: 20px;
+  color: #e8e8e8;
+  line-height: 1.3;
+  letter-spacing: 0.26px;
+  text-align: left; }
+
+.travel-spain__names {
+  padding-top: 30px;
+  text-transform: uppercase; }
+
+.travel-spain__describes {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 16px;
+  line-height: 1.625; }
+
+.travel-spain__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+
+.travel-box {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 541px;
+  background-color: #282322;
+  opacity: 0.9;
+  padding: 50px 30px; }
+
+.comment {
+  background-image: url(../../img/bg-comment.jpg); }
+  .comment__tittle {
+    width: 372px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Aleo";
+    line-height: 0.722;
+    text-align: center;
+    font-size: 36px; }
+  .comment__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 200px; }
+  .comment__card--col-left {
+    width: 443px; }
+  .comment__card--col-right {
+    width: 556px;
+    padding: 40px;
+    background-color: #333333; }
+
+.col-right--tittle {
+  padding-bottom: 22px;
+  font-size: 20px;
+  color: #c8c8c8;
+  text-transform: uppercase;
+  line-height: 1.3; }
+
+.col-right--text {
+  position: relative;
+  margin: 0; }
+  .col-right--text:before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/quote-left.png) no-repeat; }
+
+.footer {
+  padding-top: 120px;
+  background-color: #232323; }
+  .footer__logo {
+    display: block;
+    width: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 1.083;
+    letter-spacing: 1px; }
+  .footer__tagline {
+    width: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 20px; }
+  .footer-nav {
+    width: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 90px; }
+  .footer-nav__item {
+    position: relative;
+    display: inline-block; }
+  .footer-nav__link--facebook {
+    position: absolute;
+    top: 20px;
+    left: -18px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/facebook.png) no-repeat; }
+  .footer-nav__link--twitter {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/twitter.png) no-repeat; }
+  .footer-nav__link--instagram {
+    position: absolute;
+    top: 20px;
+    left: 42px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/insta.png) no-repeat; }
+  .footer-nav__link--youtube {
+    position: absolute;
+    top: 20px;
+    left: 72px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/youtube.png) no-repeat; }
+  .footer-nav__link--github {
+    position: absolute;
+    top: 20px;
+    left: 102px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/github.png) no-repeat; }

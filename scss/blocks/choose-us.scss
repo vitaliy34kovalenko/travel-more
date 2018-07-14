@@ -3,7 +3,9 @@
 	background-image: url(../../img/bg-choose-us.jpg);
 
 	&--tittle {
-		padding-bottom: 70px;
+		margin: 0;
+		padding-top: 82px;
+		padding-bottom: 54px;
 		font-size: 36px;
   		font-family: "Aleo";
   		font-weight: 400;
@@ -30,5 +32,64 @@
 }
 
 .choose-us-categories {
-	display: flex;
+    display: flex;
+	justify-content: center;
+	width: 980px;
+	margin-top: 310px;
+    margin-bottom: 0;
+	padding-bottom: 120px;
+	color: #e8e8e8;
+	font-size: 36px;
+    font-family: "Aleo";
+  	line-height: 0.722;
+  	text-align: center;
+
+  	&__item {
+  		position: relative;
+  		padding-right: 170px;
+  	}
+
+  	&__item:last-child {
+		padding-right: 0;
+  	}
+
+  	&__item--search:after {
+  		content: '';
+  		position: absolute;
+  		left: 94px;
+  		bottom: 114px;
+  		width: 804px;
+  		height: 80px;
+		background: url(../../img/arch.png) no-repeat;
+  	}
+
+  	&__item--search:before {
+  		content: '';
+  		position: absolute;
+  		left: 70px;
+  		bottom: 60px;
+  		width: 57px;
+  		height: 57px;
+		background: url(../../img/chous-us-searh.svg) no-repeat;
+  	}
+
+  	&__item--select:before {
+  		content: '';
+  		position: absolute;
+  		left: 70px;
+  		bottom: 60px;
+  		width: 61px;
+  		height: 61px;
+		background: url(../../img/select.svg) no-repeat;
+  	}
+
+  	&__item--enjoy:before {
+  		content: '';
+  		position: absolute;
+  		left: 70px;
+  		bottom: 60px;
+  		width: 61px;
+  		height: 61px;
+		background: url(../../img/enjoy.svg) no-repeat;
+  	}
 }

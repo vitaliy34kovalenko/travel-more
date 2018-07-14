@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Travel More</title>
+	<link rel="icon" href="img/travel.png">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
 </head>
@@ -15,7 +16,7 @@
 				<input class="form__input" type="search" required placeholder="Search Your Travel Destination">
 				<button class="btn  form__btn" type="Submit">Search</button>
 			</form>
-			<a href="choose-us" class="scroll">
+			<a href="#choose-us" class="scroll">
 				Scroll Down
 			</a>
 		</div>
@@ -46,7 +47,7 @@
 		</div>
 	</header>
 	<main>
-		<section class="choose-us">
+		<section id="choose-us" class="choose-us">
 			<div class="container">
 				<div class="choose-us__flex-grid">
 					<div class="choose-us__flex-grid--column-left">
@@ -67,82 +68,98 @@
 					</div>
 				</div>
 				<ul class="choose-us-categories">
-					<li class="choose-us-categories__item">
+					<li class="choose-us-categories__item  choose-us-categories__item--search">
 						Search Places
 					</li>
-					<li class="choose-us-categories__item">
+					<li class="choose-us-categories__item  choose-us-categories__item--select">
 						Select Places
 					</li>
-					<li class="choose-us-categories__item">
+					<li class="choose-us-categories__item  choose-us-categories__item--enjoy">
 						Book & Enjoy
 					</li>
 				</ul>
-			</section>
-			<section class="travel">
-				<article class="spain--firs">
-					<dl> Spain
-						<dt>
-							Grand Spain Madrid
-						</dt>
-						<dd>
-							But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
-						</dd>
-					</dl>
-					<button class="btn  btn--choose-us" type="Submit">
-						Book Now
-					</button>
-				</article>
-				<article class="spain--second">
-					<dl> Spain
-						<dt>
-							Grand Spain Madrid
-						</dt>
-						<dd>
-							But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
-						</dd>
-					</dl>
-					<button class="btn  btn--choose-us" type="Submit">
-						Book Now
-					</button>
-				</article>
-			</section>
-			<section class="comment">
-				<h2>
+			</div>
+		</section>
+		<section class="travel-spain">
+			<article class="travel-spain__first">
+				<div class="container">
+					<div class="travel-box">
+						<dl class="travel-spain__description-list"> Spain
+							<dt class="travel-spain__names">
+								Grand Spain Madrid
+							</dt>
+							<dd class="travel-spain__describes">
+								But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
+							</dd>
+						</dl>
+						<button class="btn  btn--travel" type="Submit">
+							Book Now
+						</button>
+					</div>
+				</div>
+			</article>
+			<article class="travel-spain__second">
+				<div class="container">
+					<div class="travel-spain__wrapper">
+						<div class="travel-box">
+							<dl class="travel-spain__description-list  travel-spain__description-list--second"> Spain
+								<dt class="travel-spain__names">
+									Grand Spain Madrid
+								</dt>
+								<dd class="travel-spain__describes">
+									But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
+								</dd>
+							</dl>
+							<button class="btn  btn--travel" type="Submit">
+								Book Now
+							</button>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="comment">
+			<div class="container">
+				<h2 class="comment__tittle">
 					What Our  Tourist Say
 				</h2>
-				<article>
-					<img src="" alt="Sam Sumon">
-					<h3>Sam Sumon</h3>
-					<p>
-						But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system
-					</p>
+				<article class="comment__card">
+					<div class="comment__card--col-left">
+						<img src="img/sam-sumon.jpg" alt="Sam Sumon">
+					</div>
+					<div class="comment__card--col-right">
+						<h3 class="col-right--tittle">Sam Sumon</h3>
+						<p class="col-right--text">
+							&nbsp;&nbsp;&nbsp;&nbsp;But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system
+						</p>
+					</div>
 				</article>
-			</section>
-		</div>
+			</div>
+		</section>
 	</main>
-	<footer>
+	<footer class="footer">
 		<div class="container">
-			<a href="#">
+			<a class="footer__logo" href="#">
 				Bhromaon
 			</a>
-			<p>
+			<p class="footer__tagline">
 				Safe Travel Anywhere
 			</p>
-			<ul>
-				<li>
-					<a href="https://uk-ua.facebook.com"></a>
+			<ul class="footer-nav">
+				<li class="footer-nav__item">
+					<a class="footer-nav__link--facebook" href="https://uk-ua.facebook.com"></a>
 				</li>
-				<li>
-					<a href="https://twitter.com"></a>
+				<li class="footer-nav__item">
+					<a class="footer-nav__link--twitter" href="https://twitter.com"></a>
 				</li>
-				<li>
-					<a href="https://www.instagram.com"></a>
+				<li class="footer-nav__item">
+					<a class="footer-nav__link--instagram" href="https://www.instagram.com"></a>
 				</li>
-				<li>
-					<a href="https://www.youtube.com"></a>
+				<li class="footer-nav__item">
+					<a class="footer-nav__link--youtube" href="https://www.youtube.com"></a>
 				</li>
-				<li>
-					<a href=""></a>
+				<li class="footer-nav__item">
+					<a class="footer-nav__link--github" href="https://github.com"></a>
 				</li>
 			</ul>
 		</div>

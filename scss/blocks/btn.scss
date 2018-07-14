@@ -6,7 +6,19 @@
 	&--choose-us {
 		width: 225px;
 		height: 60px;
-		margin-top: 60px;
+		margin-top: 44px;
+		border: none;
+		text-transform: uppercase;
+	}
+
+	&:hover {
+		color: #333333;
+		background-color: #f86161;
+	}
+
+	&--travel {
+		width: 225px;
+		height: 60px;
 		border: none;
 		text-transform: uppercase;
 	}
