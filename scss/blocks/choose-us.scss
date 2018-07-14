@@ -1,0 +1,34 @@
+.choose-us {
+	padding-top: 120px;
+	background-image: url(../../img/bg-choose-us.jpg);
+
+	&--tittle {
+		padding-bottom: 70px;
+		font-size: 36px;
+  		font-family: "Aleo";
+  		font-weight: 400;
+  		line-height: 0.722;
+  		text-align: left;
+	}
+
+	&__flex-grid {
+		display: flex;
+		flex-direction: row;
+	}
+
+	&__flex-grid--column-left {
+		width: 541px;
+	}
+
+	&__flex-grid--column-right {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		width: 541px;
+		margin-left: 66px;
+	}
+}
+
+.choose-us-categories {
+	display: flex;
+}

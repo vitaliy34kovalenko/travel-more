@@ -1,0 +1,44 @@
+.form {
+	display: flex;
+	justify-content: center;
+	width: 650px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&__input {
+		width: 503px;
+		height: 57px;
+		margin: 0;
+		border: none;
+	}
+
+	&__btn {
+		position: relative;
+		width: 140px;
+		height: 57px;
+		margin: 0;
+		border: 2px solid #ffffff;
+	}
+
+	&__btn:after {
+		content: '';
+  		position: absolute;
+  		top: 15px;
+  		left: 100px;
+  		width: 20px;
+  		height: 20px;
+		background: url(../../img/search.svg) no-repeat;
+	} 
+
+	&__btn:hover {
+		background-color: #f86161;
+	}
+}
+
+.form__input::-webkit-input-placeholder {
+	font-size: 14px;
+	color: #b4b4b4;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
