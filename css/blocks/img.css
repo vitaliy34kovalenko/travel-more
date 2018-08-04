@@ -1,0 +1,9 @@
+.img {
+  width: 350px; }
+  .img--first {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-bottom: 5px; }
+  .img--second {
+    -ms-flex-item-align: end;
+    align-self: flex-end; }

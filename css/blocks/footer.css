@@ -1,0 +1,64 @@
+.footer {
+  padding-top: 120px;
+  background-color: #232323; }
+  .footer__logo {
+    display: block;
+    width: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 1.083;
+    letter-spacing: 1px; }
+  .footer__tagline {
+    width: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 20px; }
+  .footer-nav {
+    width: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 90px; }
+  .footer-nav__item {
+    position: relative;
+    display: inline-block; }
+  .footer-nav__link--facebook {
+    position: absolute;
+    top: 20px;
+    left: -18px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/facebook.png) no-repeat; }
+  .footer-nav__link--twitter {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/twitter.png) no-repeat; }
+  .footer-nav__link--instagram {
+    position: absolute;
+    top: 20px;
+    left: 42px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/insta.png) no-repeat; }
+  .footer-nav__link--youtube {
+    position: absolute;
+    top: 20px;
+    left: 72px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/youtube.png) no-repeat; }
+  .footer-nav__link--github {
+    position: absolute;
+    top: 20px;
+    left: 102px;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/github.png) no-repeat; }

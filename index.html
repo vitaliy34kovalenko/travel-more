@@ -6,15 +6,16 @@
 	<link rel="icon" href="img/travel.png">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
 	<header class="header">
 		<div class="container">
-			<h1 class="hero">Bhromaon</h1>
-			<p class="header--text">Safe Travel Anywhere</p>
-			<form action="#" class="form">
+			<h1 class="hero hero--header">Bhromaon</h1>
+			<p class="header__text">Safe Travel Anywhere</p>
+			<form action="#" class="header__form  form">
 				<input class="form__input" type="search" required placeholder="Search Your Travel Destination">
-				<button class="btn  form__btn" type="Submit">Search</button>
+				<button class="form__btn  btn" type="Submit">Search</button>
 			</form>
 			<a href="#choose-us" class="scroll">
 				Scroll Down
@@ -22,8 +23,8 @@
 		</div>
 		<div class="wrapper">
 			<div class="container">
-				<div class="flex-grid">
-					<a href="#" class="flex-grid__logo">
+				<div class="menu">
+					<a href="#" class="hero  hero--nav">
 						Bhromaon
 					</a>
 					<nav class="nav">
@@ -49,70 +50,78 @@
 	<main>
 		<section id="choose-us" class="choose-us">
 			<div class="container">
-				<div class="choose-us__flex-grid">
-					<div class="choose-us__flex-grid--column-left">
-						<h2 class="choose-us--tittle">Why Choose Us</h2>
+				<div class="choose-us__card">
+					<div class="card  card--choose-us">
+						<h2 class="card__tittle  card__tittle--choose-us">Why Choose Us</h2>
 						<p>
 							Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee
 						</p>
 						<p>
 							Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.
 						</p>
-						<button class="btn  btn--choose-us" type="Submit">
-							Explore Places
-						</button>
+						<div class="btn  btn--choose-us">
+							<a href="#">
+								Explore Places
+							</a>
+						</div>
 					</div>
-					<div class="choose-us__flex-grid--column-right">
-						<img class="img  img--first" src="img/hause-on-lake.jpg" alt="Hause on lake">
-						<img class="img  img--second" src="img/assasin-humen.jpg" alt="Assasin humen">
+					<div class="gallery  gallery--choose-us">
+						<img class="gallery__photo  gallery__photo--first" src="img/hause-on-lake.jpg" alt="Hause on lake">
+						<img class="gallery__photo gallery__photo--second" src="img/assasin-humen.jpg" alt="Assasin humen">
 					</div>
 				</div>
-				<ul class="choose-us-categories">
-					<li class="choose-us-categories__item  choose-us-categories__item--search">
+				<ul class="choose-us__advantages  advantages">
+					<li class="advantages__item  advantages__item--search">
 						Search Places
 					</li>
-					<li class="choose-us-categories__item  choose-us-categories__item--select">
+					<li class="advantages__item  advantages__item--select">
 						Select Places
 					</li>
-					<li class="choose-us-categories__item  choose-us-categories__item--enjoy">
+					<li class="advantages__item  advantages__item--enjoy">
 						Book & Enjoy
 					</li>
 				</ul>
 			</div>
 		</section>
-		<section class="travel-spain">
-			<article class="travel-spain__first">
+		<section class="travel">
+			<article class="travel__spain-first">
 				<div class="container">
-					<div class="travel-box">
-						<dl class="travel-spain__description-list"> Spain
-							<dt class="travel-spain__names">
-								Grand Spain Madrid
-							</dt>
-							<dd class="travel-spain__describes">
-								But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
-							</dd>
-						</dl>
-						<button class="btn  btn--travel" type="Submit">
-							Book Now
-						</button>
+					<div class="blockquote  blockquote--travel">
+						<h3 class="blockquote__tittle  blockquote__tittle--travel">
+							Spain
+						</h3>
+						<p class="blockquote__names">
+							Grand Spain Madrid
+						</p>
+						<p class="blockquote__text  blockquote__text--travel">
+							But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
+						</p>
+						<div class="btn  btn--travel">
+							<a href="#">
+								Book Now
+							</a>
+						</div>
 					</div>
 				</div>
 			</article>
-			<article class="travel-spain__second">
+			<article class="travel__spain-second">
 				<div class="container">
-					<div class="travel-spain__wrapper">
-						<div class="travel-box">
-							<dl class="travel-spain__description-list  travel-spain__description-list--second"> Spain
-								<dt class="travel-spain__names">
-									Grand Spain Madrid
-								</dt>
-								<dd class="travel-spain__describes">
-									But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
-								</dd>
-							</dl>
-							<button class="btn  btn--travel" type="Submit">
-								Book Now
-							</button>
+					<div class="container__wrapper">
+						<div class="blockquote  blockquote--travel">
+							<h3 class="blockquote__tittle  blockquote__tittle--travel">
+								Spain
+							</h3>
+							<p class="blockquote__names">
+								Grand Spain Madrid
+							</p>
+							<p class="blockquote__text  blockquote__text--travel">
+								But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
+							</p>
+							<div class="btn  btn--travel">
+								<a href="#">
+									Book Now
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -120,46 +129,56 @@
 		</section>
 		<section class="comment">
 			<div class="container">
-				<h2 class="comment__tittle">
+				<h2 class="card__tittle  card__tittle--comment">
 					What Our  Tourist Say
 				</h2>
-				<article class="comment__card">
-					<div class="comment__card--col-left">
+				<article class="card  card--comment">
+					<div class="gallery  gallery--comment">
 						<img src="img/sam-sumon.jpg" alt="Sam Sumon">
 					</div>
-					<div class="comment__card--col-right">
-						<h3 class="col-right--tittle">Sam Sumon</h3>
-						<p class="col-right--text">
+					<blockquote class="blockquote  blockquote--comment">
+						<h3 class="blockquote__tittle  blockquote__tittle--comment">Sam Sumon</h3>
+						<p class="blockquote__text  blockquote__text--comment">
 							&nbsp;&nbsp;&nbsp;&nbsp;But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system
 						</p>
-					</div>
+					</blockquote>
 				</article>
 			</div>
 		</section>
 	</main>
 	<footer class="footer">
 		<div class="container">
-			<a class="footer__logo" href="#">
+			<a class="hero  hero--footer" href="#">
 				Bhromaon
 			</a>
 			<p class="footer__tagline">
 				Safe Travel Anywhere
 			</p>
-			<ul class="footer-nav">
-				<li class="footer-nav__item">
-					<a class="footer-nav__link--facebook" href="https://uk-ua.facebook.com"></a>
+			<ul class="footer__nav  nav">
+				<li class="nav__item">
+					<a class="nav__link  nav__link--facebook" href="https://uk-ua.facebook.com">
+						<i class="fab fa-facebook-f"></i>
+					</a>
 				</li>
-				<li class="footer-nav__item">
-					<a class="footer-nav__link--twitter" href="https://twitter.com"></a>
+				<li class="nav__item">
+					<a class="nav__link  nav__link--twitter" href="https://twitter.com">
+						<i class="fab fa-twitter"></i>
+					</a>
 				</li>
-				<li class="footer-nav__item">
-					<a class="footer-nav__link--instagram" href="https://www.instagram.com"></a>
+				<li class="nav__item">
+					<a class="nav__link  nav__link--linkedin" href="https://www.linkedin.com/">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
 				</li>
-				<li class="footer-nav__item">
-					<a class="footer-nav__link--youtube" href="https://www.youtube.com"></a>
+				<li class="nav__item">
+					<a class="nav__link  nav__link--youtube" href="https://www.youtube.com">
+						<i class="fab fa-youtube"></i>
+					</a>
 				</li>
-				<li class="footer-nav__item">
-					<a class="footer-nav__link--github" href="https://github.com"></a>
+				<li class="nav__item">
+					<a class="nav__link  nav__link--pinterest" href="https://www.pinterest.com/">
+						<i class="fab fa-pinterest"></i>
+					</a>
 				</li>
 			</ul>
 		</div>

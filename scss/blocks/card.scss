@@ -1,0 +1,37 @@
+.card {
+	
+    &--choose-us {
+    	display: flex;
+    	flex-direction: row;
+    	display: block;
+    	width: 541px;
+    }
+
+    &--comment {
+    	display: flex;
+		padding-bottom: 200px;
+    }
+
+    &__tittle {	
+    	width: 372px;
+		font-family: "Aleo";
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 0.722;
+	}
+
+	&__tittle--choose-us {
+		margin: 0;
+		padding-top: 82px;
+		padding-bottom: 54px;
+  		text-align: left;
+	}
+
+	&__tittle--comment {
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 100px;
+		padding-bottom: 100px;
+  		text-align: center;
+	}
+}

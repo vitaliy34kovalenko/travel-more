@@ -1,0 +1,27 @@
+.gallery {
+
+	&--choose-us {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		width: 475px;
+		margin-left: 66px;
+	}
+
+	&--comment {
+		width: 443px;
+	}
+
+	&__photo {
+		width: 350px;
+	}
+
+	&__photo--first {
+		align-self: flex-start;
+		margin-bottom: 5px;
+	}
+
+	&__photo--second {
+		align-self: flex-end;
+	}
+}

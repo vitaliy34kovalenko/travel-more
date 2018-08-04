@@ -19,6 +19,8 @@
 		height: 57px;
 		margin: 0;
 		border: 2px solid #ffffff;
+  		font-size: 14px;
+  		line-height: 1.857;
 	}
 
 	&__btn:after {
@@ -32,7 +34,21 @@
 	} 
 }
 
+.form__input:-ms-input-placeholder {
+	font-size: 14px;
+	color: #b4b4b4;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
 .form__input::-webkit-input-placeholder {
+	font-size: 14px;
+	color: #b4b4b4;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.form__input:-moz-placeholder {
 	font-size: 14px;
 	color: #b4b4b4;
 	letter-spacing: 0.2em;

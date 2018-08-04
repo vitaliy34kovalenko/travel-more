@@ -1,22 +1,45 @@
 .nav {
 	display: flex;
 	align-items: center;
-}
 
-.categories-nav__item {
-	display: inline-block;
-	padding-right: 40px;
-	font-size: 14px;
-  	font-family: "Aleo";
-  	text-transform: uppercase;
-  	line-height: 1.857;
-  	text-align: left;
+    &__item {
+        position: relative;
+        display: inline-block;
+    }
 
-  	&:last-child {
-  		padding-right: 0;
-  	}
+     &__link {
+        position: absolute;
+        color: #e8e8e8;
+        width: 20px;
+        height: 20px;
+    }
 
-    &:hover {
-      color: #ff6363;
+    &__link:hover {
+        color: #5474fd;
+    }
+
+    &__link--facebook {
+        top: 20px;
+        left: -18px;
+    }
+
+    &__link--twitter {
+        top: 20px;
+        left: 12px;
+    }
+
+    &__link--linkedin {
+        top: 20px;
+        left: 42px;
+    }
+
+    &__link--youtube {
+        top: 20px;
+        left: 72px;
+    }
+
+    &__link--pinterest {
+        top: 20px;
+        left: 102px;
     }
 }

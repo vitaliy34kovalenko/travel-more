@@ -1,12 +1,6 @@
-.flex-grid {
+.menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 157px;
-
-	&__logo {
-		font-size: 24px;
-		text-transform: uppercase;
-
-	}
 }

@@ -1,0 +1,89 @@
+.choose-us {
+  padding-top: 120px;
+  background-image: url(../../img/bg-choose-us.jpg); }
+  .choose-us--tittle {
+    margin: 0;
+    padding-top: 82px;
+    padding-bottom: 54px;
+    font-size: 36px;
+    font-family: "Aleo";
+    font-weight: 400;
+    line-height: 0.722;
+    text-align: left; }
+  .choose-us__flex-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .choose-us__flex-grid--column-left {
+    width: 541px; }
+  .choose-us__flex-grid--column-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    width: 541px;
+    margin-left: 66px; }
+
+.choose-us-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 980px;
+  margin-top: 310px;
+  margin-bottom: 0;
+  padding-bottom: 120px;
+  color: #e8e8e8;
+  font-size: 36px;
+  font-family: "Aleo";
+  line-height: 0.722;
+  text-align: center; }
+  .choose-us-categories__item {
+    position: relative;
+    padding-right: 170px; }
+  .choose-us-categories__item:last-child {
+    padding-right: 0; }
+  .choose-us-categories__item--search:after {
+    content: '';
+    position: absolute;
+    left: 94px;
+    bottom: 114px;
+    width: 804px;
+    height: 80px;
+    background: url(../../img/arch.png) no-repeat; }
+  .choose-us-categories__item--search:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 57px;
+    height: 57px;
+    background: url(../../img/chous-us-searh.svg) no-repeat; }
+  .choose-us-categories__item--select:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 61px;
+    height: 61px;
+    background: url(../../img/select.svg) no-repeat; }
+  .choose-us-categories__item--enjoy:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 61px;
+    height: 61px;
+    background: url(../../img/enjoy.svg) no-repeat; }
