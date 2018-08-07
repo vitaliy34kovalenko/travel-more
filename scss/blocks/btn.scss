@@ -7,9 +7,9 @@
 	background-color: #5474fd;
 
 	&--choose-us {
-		width: 225px;
+		width: 224px;
 		height: 60px;
-		margin-top: 44px;
+		margin-top: 16px;
 		border: none;
 		text-transform: uppercase;
 	}
@@ -20,6 +20,7 @@
 		border: none;
 		text-align: center;
 		text-transform: uppercase;
+		letter-spacing: 1.3px;
 	}
 
 	&:hover {

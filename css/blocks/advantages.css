@@ -1,0 +1,53 @@
+.advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 980px;
+  margin-top: 310px;
+  margin-bottom: 0;
+  padding-bottom: 120px;
+  color: #e8e8e8;
+  font-size: 36px;
+  font-family: "Aleo";
+  line-height: 0.722;
+  text-align: center; }
+  .advantages__item {
+    position: relative;
+    padding-right: 170px; }
+  .advantages__item:last-child {
+    padding-right: 0; }
+  .advantages__item--search:after {
+    content: '';
+    position: absolute;
+    left: 94px;
+    bottom: 114px;
+    width: 804px;
+    height: 80px;
+    background: url(../../img/arch.png) no-repeat; }
+  .advantages__item--search:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 57px;
+    height: 57px;
+    background: url(../../img/chous-us-searh.svg) no-repeat; }
+  .advantages__item--select:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 61px;
+    height: 61px;
+    background: url(../../img/select.svg) no-repeat; }
+  .advantages__item--enjoy:before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    bottom: 60px;
+    width: 61px;
+    height: 61px;
+    background: url(../../img/enjoy.svg) no-repeat; }

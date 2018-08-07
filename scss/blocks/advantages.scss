@@ -1,7 +1,7 @@
 .advantages {
     display: flex;
 	justify-content: center;
-	width: 980px;
+	width: 1031px;
 	margin-top: 310px;
     margin-bottom: 0;
 	padding-bottom: 120px;
@@ -23,8 +23,8 @@
   	&__item--search:after {
   		content: '';
   		position: absolute;
-  		left: 94px;
-  		bottom: 114px;
+  		left: 98px;
+  		bottom: 88px;
   		width: 804px;
   		height: 80px;
 		background: url(../../img/arch.png) no-repeat;
@@ -33,7 +33,7 @@
   	&__item--search:before {
   		content: '';
   		position: absolute;
-  		left: 70px;
+  		left: 77px;
   		bottom: 60px;
   		width: 57px;
   		height: 57px;
@@ -44,7 +44,7 @@
   		content: '';
   		position: absolute;
   		left: 70px;
-  		bottom: 60px;
+  		bottom: 57px;
   		width: 61px;
   		height: 61px;
 		background: url(../../img/select.svg) no-repeat;
@@ -53,8 +53,8 @@
   	&__item--enjoy:before {
   		content: '';
   		position: absolute;
-  		left: 70px;
-  		bottom: 60px;
+  		left: 78px;
+  		bottom: 55px;
   		width: 61px;
   		height: 61px;
 		background: url(../../img/enjoy.svg) no-repeat;

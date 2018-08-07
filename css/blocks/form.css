@@ -6,31 +6,47 @@
   -ms-flex-pack: center;
   justify-content: center;
   width: 650px;
-  margin-top: 50px;
+  margin-top: 48px;
   margin-left: auto;
   margin-right: auto; }
   .form__input {
-    width: 503px;
-    height: 57px;
+    width: 510px;
+    height: 60px;
     margin: 0;
     border: none; }
   .form__btn {
     position: relative;
-    width: 140px;
-    height: 57px;
+    width: 153px;
+    height: 60px;
     margin: 0;
-    border: 2px solid #ffffff; }
+    padding-right: 23px;
+    border: 2px solid #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.857;
+    letter-spacing: 1px; }
   .form__btn:after {
     content: '';
     position: absolute;
-    top: 15px;
-    left: 100px;
+    left: 111px;
     width: 20px;
     height: 20px;
     background: url(../../img/search.svg) no-repeat; }
 
+.form__input:-ms-input-placeholder {
+  font-size: 14px;
+  color: #b4b4b4;
+  letter-spacing: 0.15em;
+  text-align: center; }
+
 .form__input::-webkit-input-placeholder {
   font-size: 14px;
   color: #b4b4b4;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
+  text-align: center; }
+
+.form__input:-moz-placeholder {
+  font-size: 14px;
+  color: #b4b4b4;
+  letter-spacing: 0.15em;
   text-align: center; }

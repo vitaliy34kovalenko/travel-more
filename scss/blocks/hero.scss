@@ -9,24 +9,24 @@
 	&--header {
 		width: 360px;
 		margin-top: 0;
-		padding-top: 266px;
-		padding-bottom: 19px;
+		padding-top: 277px;
+		padding-bottom: 16px;
 		font-size: 48px;
 		line-height: 0.542;
-		letter-spacing: 4.8px;
+		letter-spacing: 3px;
 	}
 
 	&--nav {
-		margin-left: 0;
+		margin-left: -2px;
 		line-height: 1.083;
-		letter-spacing: 2.4px;
+		letter-spacing: 1px;
 	}
 
 	&--footer {
 		display: block;
-		width: 166px;
+		width: 168px;
   		line-height: 1.083;
-  		letter-spacing: 3.36px;
+  		letter-spacing: 2.36px;
 	}
 }
 

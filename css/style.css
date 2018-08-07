@@ -362,7 +362,7 @@ a {
     font-size: 22px;
     line-height: 1.182;
     text-align: center;
-    letter-spacing: 6.82px; }
+    letter-spacing: 5.3px; }
 
 .hero {
   margin-left: auto;
@@ -374,20 +374,20 @@ a {
   .hero--header {
     width: 360px;
     margin-top: 0;
-    padding-top: 266px;
-    padding-bottom: 19px;
+    padding-top: 277px;
+    padding-bottom: 16px;
     font-size: 48px;
     line-height: 0.542;
-    letter-spacing: 4.8px; }
+    letter-spacing: 3px; }
   .hero--nav {
-    margin-left: 0;
+    margin-left: -2px;
     line-height: 1.083;
-    letter-spacing: 2.4px; }
+    letter-spacing: 1px; }
   .hero--footer {
     display: block;
-    width: 166px;
+    width: 168px;
     line-height: 1.083;
-    letter-spacing: 3.36px; }
+    letter-spacing: 2.36px; }
 
 .form {
   display: -webkit-box;
@@ -397,27 +397,29 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   width: 650px;
-  margin-top: 50px;
+  margin-top: 48px;
   margin-left: auto;
   margin-right: auto; }
   .form__input {
-    width: 503px;
-    height: 57px;
+    width: 510px;
+    height: 60px;
     margin: 0;
     border: none; }
   .form__btn {
     position: relative;
-    width: 140px;
-    height: 57px;
+    width: 153px;
+    height: 60px;
     margin: 0;
+    padding-right: 23px;
     border: 2px solid #ffffff;
     font-size: 14px;
-    line-height: 1.857; }
+    text-transform: uppercase;
+    line-height: 1.857;
+    letter-spacing: 1px; }
   .form__btn:after {
     content: '';
     position: absolute;
-    top: 15px;
-    left: 100px;
+    left: 111px;
     width: 20px;
     height: 20px;
     background: url(../../img/search.svg) no-repeat; }
@@ -425,34 +427,34 @@ a {
 .form__input:-ms-input-placeholder {
   font-size: 14px;
   color: #b4b4b4;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-align: center; }
 
 .form__input::-webkit-input-placeholder {
   font-size: 14px;
   color: #b4b4b4;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-align: center; }
 
 .form__input:-moz-placeholder {
   font-size: 14px;
   color: #b4b4b4;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-align: center; }
 
 .scroll {
   position: relative;
   display: block;
-  width: 95px;
+  width: 96px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 121px;
+  padding-top: 116px;
   font-size: 14px;
-  letter-spacing: 0.1em; }
+  letter-spacing: 0.14em; }
   .scroll:after {
     content: '';
     position: absolute;
-    top: 150px;
+    top: 145px;
     left: 40px;
     width: 20px;
     height: 20px;
@@ -470,7 +472,8 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 157px; }
+  margin-top: 148px;
+  line-height: 50px; }
 
 .wrapper {
   background-color: #5474fd; }
@@ -494,27 +497,26 @@ a {
     color: #5474fd; }
   .nav__link--facebook {
     top: 20px;
-    left: -18px; }
+    left: -20px; }
   .nav__link--twitter {
     top: 20px;
     left: 12px; }
   .nav__link--linkedin {
     top: 20px;
-    left: 42px; }
+    left: 52px; }
   .nav__link--youtube {
     top: 20px;
-    left: 72px; }
+    left: 89px; }
   .nav__link--pinterest {
     top: 20px;
-    left: 102px; }
+    left: 131px; }
 
 .categories-nav__item {
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 37px;
   font-size: 14px;
   font-family: "Aleo";
   text-transform: uppercase;
-  line-height: 1.857;
   text-align: left; }
   .categories-nav__item:last-child {
     padding-right: 0; }
@@ -542,7 +544,8 @@ a {
   -ms-flex-direction: row;
   flex-direction: row;
   display: block;
-  width: 541px; }
+  width: 541px;
+  letter-spacing: 0.1em; }
 
 .card--comment {
   display: -webkit-box;
@@ -555,20 +558,25 @@ a {
   font-family: "Aleo";
   font-size: 36px;
   font-weight: 400;
-  line-height: 0.722; }
+  line-height: 0.722;
+  letter-spacing: 0; }
 
 .card__tittle--choose-us {
   margin: 0;
   padding-top: 82px;
-  padding-bottom: 54px;
+  padding-bottom: 67px;
   text-align: left; }
 
 .card__tittle--comment {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 124px;
   padding-bottom: 100px;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: 0.6px; }
+
+.card__text--choose-us {
+  padding-bottom: 27px; }
 
 .gallery--choose-us {
   display: -webkit-box;
@@ -582,7 +590,7 @@ a {
   -ms-flex-align: end;
   align-items: flex-end;
   width: 475px;
-  margin-left: 66px; }
+  margin-left: 95px; }
 
 .gallery--comment {
   width: 443px; }
@@ -606,7 +614,7 @@ a {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 980px;
+  width: 1031px;
   margin-top: 310px;
   margin-bottom: 0;
   padding-bottom: 120px;
@@ -623,15 +631,15 @@ a {
   .advantages__item--search:after {
     content: '';
     position: absolute;
-    left: 94px;
-    bottom: 114px;
+    left: 98px;
+    bottom: 88px;
     width: 804px;
     height: 80px;
     background: url(../../img/arch.png) no-repeat; }
   .advantages__item--search:before {
     content: '';
     position: absolute;
-    left: 70px;
+    left: 77px;
     bottom: 60px;
     width: 57px;
     height: 57px;
@@ -640,15 +648,15 @@ a {
     content: '';
     position: absolute;
     left: 70px;
-    bottom: 60px;
+    bottom: 57px;
     width: 61px;
     height: 61px;
     background: url(../../img/select.svg) no-repeat; }
   .advantages__item--enjoy:before {
     content: '';
     position: absolute;
-    left: 70px;
-    bottom: 60px;
+    left: 78px;
+    bottom: 55px;
     width: 61px;
     height: 61px;
     background: url(../../img/enjoy.svg) no-repeat; }
@@ -667,9 +675,9 @@ a {
   color: #ffffff;
   background-color: #5474fd; }
   .btn--choose-us {
-    width: 225px;
+    width: 224px;
     height: 60px;
-    margin-top: 44px;
+    margin-top: 16px;
     border: none;
     text-transform: uppercase; }
   .btn--travel {
@@ -677,20 +685,24 @@ a {
     height: 60px;
     border: none;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 1.3px; }
   .btn:hover {
     color: #333333;
     background-color: #f86161; }
 
 .travel__spain-first {
-  padding-top: 229px;
-  padding-bottom: 73px;
-  background-image: url(../../img/bg-spain-first.jpg); }
+  padding-top: 228px;
+  padding-bottom: 101px;
+  background-image: url(../../img/bg-spain-first.jpg);
+  background-repeat: no-repeat; }
 
 .travel__spain-second {
-  padding-top: 229px;
-  padding-bottom: 73px;
-  background-image: url(../../img/bg-spain-second.jpg); }
+  padding-top: 228px;
+  padding-bottom: 101px;
+  background-image: url(../../img/bg-spain-second.jpg);
+  background-repeat: no-repeat;
+  background-position: top; }
 
 .comment {
   background-image: url(../../img/bg-comment.jpg); }
@@ -699,18 +711,24 @@ a {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
-  width: 556px; }
+  width: 540px; }
   .blockquote--travel {
-    padding: 50px 30px;
+    padding: 47px 29px;
     background-color: #282322;
     opacity: 0.9; }
   .blockquote--comment {
+    width: 665px;
     margin: 0;
-    padding: 40px;
+    padding-top: 47px;
+    padding-right: 40px;
+    padding-left: 60px;
     background-color: #333333; }
   .blockquote__names {
-    padding-top: 30px;
-    text-transform: uppercase; }
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 400; }
   .blockquote__tittle--travel {
     font-size: 20px;
     color: #e8e8e8;
@@ -719,24 +737,26 @@ a {
     font-weight: 400;
     text-align: left; }
   .blockquote__tittle--comment {
-    padding-bottom: 22px;
+    padding-bottom: 40px;
     font-size: 20px;
     color: #c8c8c8;
     text-transform: uppercase;
     line-height: 1.3; }
   .blockquote__text--travel {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 18px;
+    padding-bottom: 45px;
     font-size: 16px;
     line-height: 1.625; }
   .blockquote__text--comment {
+    font-size: 14px;
+    line-height: 1.9em;
     position: relative;
     margin: 0; }
   .blockquote__text--comment:before {
     content: '';
     position: absolute;
-    top: -12px;
-    left: -5px;
+    top: -15px;
+    left: -1px;
     width: 20px;
     height: 20px;
     background: url(../../img/quote-left.png) no-repeat; }
@@ -745,16 +765,17 @@ a {
   padding-top: 120px;
   background-color: #232323; }
   .footer__tagline {
-    width: 166px;
+    width: 163px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 0;
-    padding-top: 20px; }
+    padding-top: 6px;
+    letter-spacing: 0.3px; }
   .footer__nav {
     width: 166px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 0;
-    padding-bottom: 90px; }
+    padding-bottom: 93px; }
